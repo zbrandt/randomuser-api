@@ -9,7 +9,8 @@ function createNewArray(oldArray: any[]): any[] {
         return {
             gender: item.gender,
             name: item.name.first + " " + item.name.last,
-            email: item.email
+            email: item.email,
+            picture: item.picture.thumbnail
         };
     });
 
